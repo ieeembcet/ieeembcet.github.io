@@ -1,0 +1,143 @@
+/* Blog */
+.blogIcon{
+  padding-bottom: 3%;
+}
+
+.moreInfo{
+  font-size: 1.2rem;
+
+}
+
+li{
+  align-self: flex-start;
+}
+
+/* Recent Events */
+
+#recentEvents{
+  background-image: url('../images/recentBG.gif');
+}
+
+.blog-w3layouts{
+  padding: 0;
+}
+.pad{
+  padding-left: 10%;
+
+}
+
+.dap{
+  padding-top: 10%;
+}
+
+li{
+  padding-bottom: 13px;
+}
+
+.upcoming{
+  background-color: #eaeaea;
+}
+
+.recentPg{
+  font-size: 3rem;
+  color: #eaeaea;
+  text-align: right;
+  padding: 0 10% ;
+}
+
+.pgRoute{
+  color: #eaeaea;
+}
+.pgRoute:hover{
+  color:#e23e57;
+  text-decoration: none;
+}
+
+.txtUpcomming{
+  color: #212121;
+}
+
+/* Annual Report */
+#annualReport{
+  background-image: url('../images/annualReport.gif');
+  padding-bottom: 0;
+}
+
+#panel1, #panel2, #panel3{
+  display: none;
+  font-size: 1.8rem;
+  padding-right: 10%;
+}
+.spacing{
+  padding-left: 2%;
+  padding-bottom: 20px;
+}
+.annual{
+  background-image: url('../images/annualReport.gif');
+}
+.yr{
+  padding-bottom: 2%;
+}
+.fullReport{
+  padding-top: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.fullReport:hover{
+  text-decoration: none;
+}
+
+/* Contact */
+#contact {
+  background-image: url('../images/contactBG.gif');
+}
+
+.send {
+  font-family: 'Josefin Sans';
+}
+
+/* Footer */
+#footer {
+  padding: 2% 15%;
+  text-align: center;
+  background-color: #000;
+}
+
+.bottom-icon {
+  font-size: 3rem;
+  color: #fff;
+  margin: 10px;
+}
+
+.bottom-icon:hover {
+  color: #8f8f8f;
+}
+
+.footer-link {
+  color: #4FABC1;
+}
+
+.footer-link:hover {
+  color: #EA3C56;
+  text-decoration: none;
+}
+
+.backtop{
+  border-radius: 25px ;
+  height: 50px ;
+  width: 50px ;
+}
+@media (min-width:771px) {
+  .cr {
+    align-content: space-between;
+  }
+
+  .spaceIcons {
+    padding-right: 30%;
+  }
+
+  .spaceCopyright {
+    padding-left: 20%;
+  }
+}
