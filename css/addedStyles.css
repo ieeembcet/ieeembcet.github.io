@@ -103,7 +103,7 @@ li {
 
 /* Footer */
 #footer {
-  padding: 2% 15%;
+  padding: 1% 15% 1% 0;
   text-align: center;
   background-color: #000;
 }
@@ -182,7 +182,7 @@ li {
   border-right: 1px solid #e2e2e2;
 
   text-align: right;
-  padding-right: 15%
+  padding-right: 30%
 }
 
 .bottom-iconalt {
