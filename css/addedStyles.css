@@ -60,7 +60,8 @@ li{
 /* Annual Report */
 #annualReport{
   background-color: #000;
-  padding-bottom: 0;
+  padding-bottom: 5%;
+  text-align: center;
 }
 
 #panel1, #panel2, #panel3{
