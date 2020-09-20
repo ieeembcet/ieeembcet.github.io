@@ -157,7 +157,7 @@ li {
   font-family: Arial;
   font-size: 17px;
   padding: 21px 25px;
-  margin: 2% 0;
+  margin: 2%;
   text-decoration: none;
 }
 
@@ -167,6 +167,49 @@ li {
   color: #2780E3;
 }
 
+/* Social Media */
+#media {
+  padding: 3%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.bor {
+  display: block;
+  position: relative;
+  color: #000;
+  margin-bottom: 3rem;
+  border-right: 1px solid #e2e2e2;
+}
+
+.bottom-iconalt {
+  font-size: 3rem;
+  color: #000;
+  margin: 10px;
+}
+
+.bottom-iconalt:hover {
+  color: #EA3C56;
+}
+
+.ko {
+  padding: 3%;
+}
+
+.abtIeee {
+  text-align: left;
+}
+
+/* .recentPosts {
+  text-align: center;
+}
+
+.posts {
+  display: inline;
+}
+.post {
+  display: ;
+} */
 @media (min-width:771px) {
   .cr {
     align-content: space-between;
