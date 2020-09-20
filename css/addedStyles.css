@@ -143,3 +143,27 @@ li{
     padding-left: 20%;
   }
 }
+
+.dataRowBtn {
+	box-shadow: 0px 1px 12px 2px #ffffff;
+	background:linear-gradient(to bottom, #f02000 5%, #ff1e00 100%);
+	background-color:#f02000;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 21px;
+	text-decoration:none;
+}
+.dataRowBtn:hover {
+	background:linear-gradient(to bottom, #ff1e00 5%, #f02000 100%);
+	background-color:#ff1e00;
+}
+.dataRowBtn:active {
+	position:relative;
+	top:1px;
+}
+
+        
