@@ -163,6 +163,15 @@ display: inline-block;
     margin-top: -1px;
 }
 
+#sb_instagram .sbi_follow_btn {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    text-align: center;
+}
+
+
 @media (min-width:771px) {
   .cr {
     align-content: space-between;
