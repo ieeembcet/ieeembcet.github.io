@@ -129,6 +129,40 @@ li{
   height: 50px ;
   width: 50px ;
 }
+/* ________________________________________________________________________________ */
+.medical {
+    font-family: 'Hind', sans-serif!important;
+    font-size: 15px;
+}
+display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    padding: 7px 14px;
+    margin: 5px auto 0 auto;
+    background: #333;
+    color: #eee;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer {
+    padding: 3rem 0 0;
+    display: inline-block;
+    position: relative;
+    background-color: #026aab;
+    width: 100%;
+    margin-top: -1px;
+}
+
 @media (min-width:771px) {
   .cr {
     align-content: space-between;
