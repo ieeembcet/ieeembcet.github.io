@@ -169,7 +169,7 @@ li {
 
 /* Social Media */
 #media {
-  padding: 3%;
+  padding: 3% 0 0;
   background-color: #fff;
   text-align: center;
 }
@@ -180,6 +180,9 @@ li {
   color: #000;
   margin-bottom: 3rem;
   border-right: 1px solid #e2e2e2;
+
+  text-align: right;
+  padding-right: 15%
 }
 
 .bottom-iconalt {
@@ -198,6 +201,12 @@ li {
 
 .abtIeee {
   text-align: left;
+  padding-left: 15%
+}
+
+.don{
+  padding-top: 5%;
+  padding-right: 15%;
 }
 
 /* .recentPosts {
