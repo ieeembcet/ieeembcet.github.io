@@ -66,6 +66,7 @@ li{
 
 .annual {
   background-color: #000;
+  text-align: center;
 }
 
 .yr {
@@ -80,15 +81,6 @@ li{
 
 .fullReport:hover {
   text-decoration: none;
-}
-
-/* Contact */
-#contact {
-  background-image: url('../images/contactBG.gif');
-}
-
-.send {
-  font-family: 'Josefin Sans';
 }
 
 /* Footer */
