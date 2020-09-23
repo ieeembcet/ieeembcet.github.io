@@ -14,9 +14,6 @@ li{
 
 /* Recent Events */
 
-#recentEvents{
-  background-image: url('../images/recentBG.gif');
-}
 
 .blog-w3layouts{
   padding: 0;
@@ -58,18 +55,6 @@ li{
 }
 
 /* Annual Report */
-#annualReport {
-  background-color: #000;
-  padding-bottom: 5%;
-  text-align: center;
-}
-
-#panel1, #panel2, #panel3 {
-  display: none;
-  font-size: 1.8rem;
-  padding-right: 10%;
-}
-
 .spacing {
   padding-left: 2%;
   padding-bottom: 20px;
@@ -139,14 +124,15 @@ li{
   background-color: #000;
   text-align: center;
   padding: 3%;
-  font-size: 4rem;
 }
 
 .headS {
   padding: 25px 0 10px;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
-
+.dataP{
+  font-size: 5rem;
+}
 .dataRowBtn {
   box-shadow: 0px 1px 12px 2px #7F838D;
   background: linear-gradient(to bottom, #f02000 5%, #ff1e00 100%);
@@ -163,9 +149,10 @@ li{
 }
 
 .dataRowBtn:hover {
+  box-shadow: 0px 1px 12px 2px #000;
   background: linear-gradient(to bottom, #ff1e00 5%, #f02000 100%);
   background-color: #ff1e00;
-  color: #2780E3;
+  color: #000;
 }
 
 /* Social Media */
@@ -179,11 +166,16 @@ li{
   display: block;
   position: relative;
   color: #000;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   border-right: 1px solid #e2e2e2;
 
   text-align: right;
   padding-right: 30%
+}
+
+.borh2{
+  text-align: right;
+  font-size: 3rem;
 }
 
 .bottom-iconalt {
@@ -206,6 +198,9 @@ li{
 }
 
 .don{
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
   padding-top: 5%;
   padding-right: 15%;
 }
