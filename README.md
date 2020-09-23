@@ -1,3 +1,2 @@
 # IEEE-Website
-
-https://ieeembcet.github.io
+-https://ieeembcet.github.io
