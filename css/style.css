@@ -18,23 +18,24 @@ body a {
   -ms-transition: 0.5s all;
 }
 
-p{
+p {
   text-align: center;
   font-family: Oxygen !important;
   font-size: 50px;
 }
 
-h3{
+h3 {
   text-align: center;
   font-family: Comfortaa !important;
   font-size: 25px;
 }
 
-h2{
+h2 {
   text-align: center;
   font-family: Comfortaa !important;
   font-size: 25px;
 }
+
 input[type="button"], input[type="submit"] {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -173,9 +174,11 @@ section.banner-w3ls button.btn.btn-default {
   color: #fff;
   background-color: #ea3c56;
 }
-.w3l_head1{
+
+.w3l_head1 {
   padding: 50px;
 }
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -189,9 +192,11 @@ section.banner-w3ls button.btn.btn-default {
 .clearfix {
   *zoom: 1;
 }
-.cnt-block equal-hight{
+
+.cnt-block equal-hight {
   padding: 10px;
 }
+
 .fl {
   float: left;
 }
@@ -495,7 +500,6 @@ section.about-w3l .slideshow-transform {
 /*-- services section --*/
 section.service-w3l {
   padding: 100px 0;
-  background: url(../images/service.jpg) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -641,7 +645,6 @@ section.portfolio-agileinfo span.fa.fa-star-o {
 /*-- team section --*/
 section.team-agileinfo {
   padding: 100px 0;
-  background: url(../images/team.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -650,7 +653,8 @@ section.team-agileinfo {
   -ms-background-size: cover;
   position: relative;
 }
-#recentEvents{
+
+#recentEvents {
   background-color: black;
 }
 
@@ -1157,7 +1161,6 @@ section.blog-w3layouts a.blog-link3 i.fa {
 /*-- contact section --*/
 section.contact-w3layouts {
   padding: 100px 0;
-  background: url(../images/contact.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-background-size: cover;
