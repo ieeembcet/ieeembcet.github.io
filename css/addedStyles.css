@@ -70,7 +70,13 @@ li{
 }
 
 .yr {
+  color: white;
   padding-bottom: 2%;
+}
+
+.yr:hover{
+  color: #EA3C56;
+  text-decoration: none;
 }
 
 .fullReport {
@@ -85,7 +91,7 @@ li{
 
 /* Footer */
 #footer {
-  padding: 1% 15% 1% 0;
+  padding: 1% 17% 1% 0;
   text-align: center;
   background-color: #000;
 }
@@ -150,6 +156,7 @@ li{
   background-color: #ff1e00;
   color: #000;
 }
+
 
 /* Social Media */
 #media {
