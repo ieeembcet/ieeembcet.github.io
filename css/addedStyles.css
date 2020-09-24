@@ -137,7 +137,6 @@ color: #fff;
   font-size: 5rem;
 }
 .dataRowBtn {
-  box-shadow: 0px 1px 12px 2px #7F838D;
   background: linear-gradient(to bottom, #f02000 5%, #ff1e00 100%);
   background-color: #f02000;
   border-radius: 72px;
@@ -152,7 +151,6 @@ color: #fff;
 }
 
 .dataRowBtn:hover {
-  box-shadow: 0px 1px 12px 2px #000;
   background: linear-gradient(to bottom, #ff1e00 5%, #f02000 100%);
   background-color: #ff1e00;
   color: #000;
