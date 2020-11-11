@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body {
   padding: 0;
   margin: 0;
-  background: #FFF;
+  background: #fff;
 }
 
 body a {
@@ -36,7 +36,8 @@ h2 {
   font-size: 25px;
 }
 
-input[type="button"], input[type="submit"] {
+input[type="button"],
+input[type="submit"] {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -44,7 +45,12 @@ input[type="button"], input[type="submit"] {
   -ms-transition: 0.5s all;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -82,7 +88,7 @@ img {
 /*-- /reset code --*/
 body {
   color: #999;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*-- logo --*/
@@ -102,7 +108,7 @@ section.banner-w3ls .logo-w3ls a h1 {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 /*-- /logo --*/
@@ -145,7 +151,7 @@ section.banner-w3ls .modal-header h4 {
   font-size: 30px;
   font-weight: normal;
   text-transform: uppercase;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.banner-w3ls .modal-footer {
@@ -232,7 +238,7 @@ section.banner-w3ls button.btn.btn-default {
   letter-spacing: 3px;
   padding-bottom: 20px;
   text-transform: uppercase;
-  font-family: 'Nexa';
+  font-family: "Nexa";
 }
 
 .pogoSlider-slide-element p {
@@ -272,7 +278,7 @@ section.banner-w3ls button.btn.btn-default {
   -moz-border-radius: 25px;
   -o-border-radius: 25px;
   -ms-border-radius: 25px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1:hover {
@@ -295,7 +301,7 @@ section.banner-w3ls button.btn.btn-default {
   -moz-border-radius: 25px;
   -o-border-radius: 25px;
   -ms-border-radius: 25px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2:hover {
@@ -304,9 +310,9 @@ section.banner-w3ls button.btn.btn-default {
 
 .pogoSlider-slide-element a.btn-circle {
   color: #ea3c56;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .pogoSlider-slide-element a.btn-circle:hover,
@@ -329,16 +335,16 @@ section.banner-w3ls button.btn.btn-default {
   font-size: 40px;
   color: #fff;
   background: 0 0;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
 }
 
 .btn-circle:hover,
 .btn-circle:focus {
   outline: 0;
   color: #fff;
-  background: rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .btn-circle i.animated {
@@ -398,9 +404,9 @@ section.banner-w3ls button.btn.btn-default {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /*-- /banner section --*/
@@ -414,7 +420,7 @@ section.about-w3l h2 {
   font-weight: bold;
   color: #3ba2c1;
   padding: 55px 0 20px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.about-w3l p {
@@ -514,12 +520,12 @@ section.service-w3l h3.text-center {
   font-weight: bold;
   color: #fff;
   padding-bottom: 50px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   position: relative;
 }
 
 section.service-w3l h3.text-center:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #fff;
   width: 300px;
@@ -529,7 +535,7 @@ section.service-w3l h3.text-center:before {
 }
 
 section.service-w3l h3.text-center:after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #fff;
   width: 300px;
@@ -553,7 +559,7 @@ section.service-w3l h4.text-center {
   color: #fff;
   padding: 20px 0;
   text-transform: capitalize;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.service-w3l p.text-center {
@@ -574,7 +580,7 @@ section.service-w3l p.text-center {
 
 .ch-grid:after,
 .ch-item:before {
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -593,7 +599,9 @@ section.service-w3l p.text-center {
   padding-top: 190px;
 }
 
-.col-lg-12.col-md-12.col-sm-6.serv-wthree1, .col-lg-12.col-md-12.col-sm-6.serv-wthree4, .col-lg-12.col-md-12.col-sm-6.serv-wthree6 {
+.col-lg-12.col-md-12.col-sm-6.serv-wthree1,
+.col-lg-12.col-md-12.col-sm-6.serv-wthree4,
+.col-lg-12.col-md-12.col-sm-6.serv-wthree6 {
   padding-bottom: 40px;
 }
 
@@ -608,12 +616,12 @@ section.portfolio-agileinfo h3.text-center {
   font-weight: bold;
   color: #3ba2c1;
   padding-bottom: 50px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   position: relative;
 }
 
 section.portfolio-agileinfo h3.text-center:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #3ba2c1;
   width: 300px;
@@ -623,7 +631,7 @@ section.portfolio-agileinfo h3.text-center:before {
 }
 
 section.portfolio-agileinfo h3.text-center:after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #3ba2c1;
   width: 300px;
@@ -681,12 +689,12 @@ section.team-agileinfo h3.text-center {
   font-weight: bold;
   color: #fff;
   padding-bottom: 50px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   position: relative;
 }
 
 section.team-agileinfo h3.text-center:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #fff;
   width: 300px;
@@ -696,7 +704,7 @@ section.team-agileinfo h3.text-center:before {
 }
 
 section.team-agileinfo h3.text-center:after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #fff;
   width: 300px;
@@ -725,7 +733,11 @@ section.team-agileinfo .view {
   cursor: default;
 }
 
-section.team-agileinfo .view .mask1, section.team-agileinfo .view .mask2, section.team-agileinfo .view .mask3, section.team-agileinfo .view .mask4, section.team-agileinfo .view .content {
+section.team-agileinfo .view .mask1,
+section.team-agileinfo .view .mask2,
+section.team-agileinfo .view .mask3,
+section.team-agileinfo .view .mask4,
+section.team-agileinfo .view .content {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -749,7 +761,7 @@ section.team-agileinfo .view h4 {
   padding: 10px;
   background: #3ba2c1;
   margin: 40px 0 0 0;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.team-agileinfo .view ul.team-social {
@@ -843,7 +855,7 @@ section.team-agileinfo .view p.info {
   text-transform: capitalize;
 }
 
-section.team-agileinfo .view p.info: hover {
+section.team-agileinfo.viewp.info: hover {
   -webkit-box-shadow: 0 0 5px #000;
   -moz-box-shadow: 0 0 5px #000;
   box-shadow: 0 0 5px #000;
@@ -863,12 +875,12 @@ section.blog-w3layouts h3.text-center {
   font-weight: bold;
   color: #3ba2c1;
   padding-bottom: 50px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   position: relative;
 }
 
 section.blog-w3layouts h3.text-center:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #3ba2c1;
   width: 300px;
@@ -878,7 +890,7 @@ section.blog-w3layouts h3.text-center:before {
 }
 
 section.blog-w3layouts h3.text-center:after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #3ba2c1;
   width: 300px;
@@ -902,7 +914,7 @@ section.blog-w3layouts span.fa.fa-star-o {
 }
 
 .column::after {
-  content: '';
+  content: "";
   clear: both;
   display: block;
 }
@@ -986,7 +998,7 @@ section.blog-w3layouts .modal-header h4 {
   font-size: 30px;
   font-weight: normal;
   text-transform: uppercase;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.blog-w3layouts .modal-footer {
@@ -1022,7 +1034,9 @@ section.blog-w3layouts img.img-responsive.team-agile {
   margin: 0 auto;
 }
 
-section.blog-w3layouts i.fa.fa-credit-card-alt, section.blog-w3layouts i.fa.fa-handshake-o, section.blog-w3layouts i.fa.fa-money {
+section.blog-w3layouts i.fa.fa-credit-card-alt,
+section.blog-w3layouts i.fa.fa-handshake-o,
+section.blog-w3layouts i.fa.fa-money {
   font-size: 30px;
   display: block;
   color: #95a9b1;
@@ -1041,7 +1055,7 @@ section.blog-w3layouts h4.blog-wthree {
   letter-spacing: 1px;
   color: #9aa9af;
   text-transform: uppercase;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.blog-w3layouts ul.blog-info {
@@ -1062,7 +1076,8 @@ section.blog-w3layouts ul.blog-info li i.fa {
   color: #9aa9af;
 }
 
-section.blog-w3layouts ul.blog-info li p, section.blog-w3layouts ul.blog-info li p a {
+section.blog-w3layouts ul.blog-info li p,
+section.blog-w3layouts ul.blog-info li p a {
   display: inline-block;
   font-size: 13px;
   font-weight: normal;
@@ -1132,7 +1147,7 @@ section.blog-w3layouts a.blog-link3 {
   background-color: #ea3c56;
   font-weight: bold;
   text-decoration: none;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -1175,12 +1190,12 @@ section.contact-w3layouts h3.text-center {
   font-weight: bold;
   color: #fff;
   padding-bottom: 50px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   position: relative;
 }
 
 section.contact-w3layouts h3.text-center:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #fff;
   width: 300px;
@@ -1190,7 +1205,7 @@ section.contact-w3layouts h3.text-center:before {
 }
 
 section.contact-w3layouts h3.text-center:after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #fff;
   width: 300px;
@@ -1254,11 +1269,14 @@ section.contact-w3layouts label {
   padding-bottom: 10px;
 }
 
-section.contact-w3layouts input#name, input#email {
+section.contact-w3layouts input#name,
+input#email {
   height: 45px;
 }
 
-section.contact-w3layouts input#name, input#email, textarea#message {
+section.contact-w3layouts input#name,
+input#email,
+textarea#message {
   width: 100%;
   font-size: 17px;
   font-weight: normal;
@@ -1274,7 +1292,7 @@ section.contact-w3layouts button.btn.btn-primary {
   background-color: #ea3c56;
   font-weight: bold;
   text-decoration: none;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -1301,7 +1319,7 @@ section.footer-w3 h3 {
   font-weight: bold;
   color: #212121;
   padding-bottom: 20px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 section.footer-w3 p.footer-p1 {
@@ -1338,7 +1356,7 @@ section.footer-w3 button.btn.btn-outline.btn-lg {
   color: #fff;
   font-size: 15px;
   font-weight: bold;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1415,7 +1433,7 @@ input:-ms-input-placeholder {
 .copright-w3 ul.link-w3l li a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-size: 16px;
   font-weight: normal;
   display: block;
@@ -1441,7 +1459,7 @@ input:-ms-input-placeholder {
   width: 100%;
   height: 2px;
   background: #fff;
-  content: '';
+  content: "";
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   -moz-transition: opacity 0.3s, -moz-transform 0.3s;
@@ -1508,20 +1526,23 @@ input:-ms-input-placeholder {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: rgba(0, 0, 0, 0.55) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  background: rgba(0, 0, 0, 0.55) url(../images/cd-top-arrow.svg) no-repeat
+    center 50%;
   background-size: 70%;
   border: 1px solid #fff;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
 
-.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
-  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-  -moz-transition: opacity .3s 0s, visibility 0s 0s;
-  transition: opacity .3s 0s, visibility 0s 0s;
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
+.no-touch .cd-top:hover {
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
 .cd-top.cd-is-visible {
@@ -1532,7 +1553,7 @@ input:-ms-input-placeholder {
 
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .cd-top:hover {
@@ -1558,7 +1579,7 @@ input:-ms-input-placeholder {
 
 /*-- /back to top --*/
 /*-- responsive design --*/
-@media (max-width:1600px) {
+@media (max-width: 1600px) {
   .pogoSlider {
     height: 790px !important;
   }
@@ -1580,7 +1601,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
   .btn-circle {
     margin-top: 45px;
   }
@@ -1595,7 +1616,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:1366px) {
+@media (max-width: 1366px) {
   .pogoSlider {
     height: 767px !important;
   }
@@ -1614,7 +1635,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
   section.banner-w3ls .logo-w3ls {
     left: 85px;
     top: 65px;
@@ -1625,7 +1646,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:1080px) {
+@media (max-width: 1080px) {
   section.banner-w3ls .logo-w3ls {
     left: 80px;
   }
@@ -1651,7 +1672,12 @@ input:-ms-input-placeholder {
     height: 330px;
   }
 
-  section.about-w3l h2, section.service-w3l h3.text-center, section.portfolio-agileinfo h3.text-center, section.team-agileinfo h3.text-center, section.blog-w3layouts h3.text-center, section.contact-w3layouts h3.text-center {
+  section.about-w3l h2,
+  section.service-w3l h3.text-center,
+  section.portfolio-agileinfo h3.text-center,
+  section.team-agileinfo h3.text-center,
+  section.blog-w3layouts h3.text-center,
+  section.contact-w3layouts h3.text-center {
     font-size: 35px;
   }
 
@@ -1659,19 +1685,40 @@ input:-ms-input-placeholder {
     padding: 50px 0;
   }
 
-  section.service-w3l, section.portfolio-agileinfo, section.team-agileinfo, section.blog-w3layouts, section.contact-w3layouts {
+  section.service-w3l,
+  section.portfolio-agileinfo,
+  section.team-agileinfo,
+  section.blog-w3layouts,
+  section.contact-w3layouts {
     padding: 50px 0;
   }
 
-  section.service-w3l h3.text-center:before, section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:before, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:before, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:before,
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:before,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:after {
     width: 250px;
   }
 
-  section.service-w3l span.fa.fa-star-o, section.portfolio-agileinfo span.fa.fa-star-o, section.team-agileinfo span.fa.fa-star-o, section.blog-w3layouts span.fa.fa-star-o, section.contact-w3layouts span.fa.fa-star-o {
+  section.service-w3l span.fa.fa-star-o,
+  section.portfolio-agileinfo span.fa.fa-star-o,
+  section.team-agileinfo span.fa.fa-star-o,
+  section.blog-w3layouts span.fa.fa-star-o,
+  section.contact-w3layouts span.fa.fa-star-o {
     margin-bottom: 30px;
   }
 
-  section.service-w3l h3.text-center, section.portfolio-agileinfo h3.text-center, section.team-agileinfo h3.text-center, section.blog-w3layouts h3.text-center, section.contact-w3layouts h3.text-center {
+  section.service-w3l h3.text-center,
+  section.portfolio-agileinfo h3.text-center,
+  section.team-agileinfo h3.text-center,
+  section.blog-w3layouts h3.text-center,
+  section.contact-w3layouts h3.text-center {
     padding-bottom: 40px;
   }
 
@@ -1726,7 +1773,9 @@ input:-ms-input-placeholder {
     font-size: 14px;
   }
 
-  section.contact-w3layouts input#name, section.contact-w3layouts input#email, section.contact-w3layouts textarea#message {
+  section.contact-w3layouts input#name,
+  section.contact-w3layouts input#email,
+  section.contact-w3layouts textarea#message {
     font-size: 15px;
   }
 
@@ -1748,7 +1797,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:1050px) {
+@media (max-width: 1050px) {
   .pogoSlider-slide-element h3 {
     width: 100%;
     padding-bottom: 10px;
@@ -1799,7 +1848,8 @@ input:-ms-input-placeholder {
     text-align: center;
   }
 
-  element.style {}
+  element.style {
+  }
 
   .pogoSlider-slide-element {
     margin-top: 285px !important;
@@ -1810,7 +1860,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .pogoSlider {
     height: 600px !important;
   }
@@ -1837,11 +1887,19 @@ input:-ms-input-placeholder {
     height: 400px;
   }
 
-  section.service-w3l h3.text-center:before, section.portfolio-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:before, section.blog-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:before {
+  section.service-w3l h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:before,
+  section.blog-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:before {
     left: 10%;
   }
 
-  section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:after {
     right: 10%;
   }
 
@@ -1864,7 +1922,11 @@ input:-ms-input-placeholder {
     width: 100%;
   }
 
-  section.service-w3l h3.text-center, section.portfolio-agileinfo h3.text-center, section.team-agileinfo h3.text-center, section.blog-w3layouts h3.text-center, section.contact-w3layouts h3.text-center {
+  section.service-w3l h3.text-center,
+  section.portfolio-agileinfo h3.text-center,
+  section.team-agileinfo h3.text-center,
+  section.blog-w3layouts h3.text-center,
+  section.contact-w3layouts h3.text-center {
     padding-bottom: 35px;
   }
 
@@ -1891,7 +1953,12 @@ input:-ms-input-placeholder {
     float: left;
   }
 
-  section.team-agileinfo .team-grid .col-lg-3.col-md-3.col-sm-3.team-w3ls:nth-child(1), section.team-agileinfo .team-grid .col-lg-3.col-md-3.col-sm-3.team-w3ls:nth-child(2) {
+  section.team-agileinfo
+    .team-grid
+    .col-lg-3.col-md-3.col-sm-3.team-w3ls:nth-child(1),
+  section.team-agileinfo
+    .team-grid
+    .col-lg-3.col-md-3.col-sm-3.team-w3ls:nth-child(2) {
     padding-bottom: 30px;
   }
 
@@ -1912,7 +1979,8 @@ input:-ms-input-placeholder {
     margin: 0 auto;
   }
 
-  section.blog-w3layouts .blog-agile:nth-child(1), section.blog-w3layouts .blog-agile:nth-child(2) {
+  section.blog-w3layouts .blog-agile:nth-child(1),
+  section.blog-w3layouts .blog-agile:nth-child(2) {
     margin-bottom: 30px;
   }
 
@@ -1933,15 +2001,18 @@ input:-ms-input-placeholder {
     padding: 50px 0;
   }
 
-  section.blog-w3layouts .modal-header h4, section.banner-w3ls .modal-header h4 {
+  section.blog-w3layouts .modal-header h4,
+  section.banner-w3ls .modal-header h4 {
     font-size: 20px;
   }
 
-  section.blog-w3layouts button.btn.btn-default, section.banner-w3ls button.btn.btn-default {
+  section.blog-w3layouts button.btn.btn-default,
+  section.banner-w3ls button.btn.btn-default {
     font-size: 14px;
   }
 
-  section.blog-w3layouts button.close, section.banner-w3ls button.close {
+  section.blog-w3layouts button.close,
+  section.banner-w3ls button.close {
     top: -5px;
   }
 
@@ -1954,7 +2025,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   section.footer-w3 p.footer-p1 {
     font-size: 13px;
   }
@@ -2017,7 +2088,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .overlay ul li a {
     font-size: 20px;
   }
@@ -2046,7 +2117,11 @@ input:-ms-input-placeholder {
     height: 320px;
   }
 
-  .col-lg-12.col-md-12.col-sm-6.serv-wthree1, .col-lg-12.col-md-12.col-sm-6.serv-wthree2, .col-lg-12.col-md-12.col-sm-6.serv-wthree3, .col-lg-12.col-md-12.col-sm-6.serv-wthree4, .col-lg-12.col-md-12.col-sm-6.serv-wthree6 {
+  .col-lg-12.col-md-12.col-sm-6.serv-wthree1,
+  .col-lg-12.col-md-12.col-sm-6.serv-wthree2,
+  .col-lg-12.col-md-12.col-sm-6.serv-wthree3,
+  .col-lg-12.col-md-12.col-sm-6.serv-wthree4,
+  .col-lg-12.col-md-12.col-sm-6.serv-wthree6 {
     padding-bottom: 40px;
   }
 
@@ -2058,7 +2133,8 @@ input:-ms-input-placeholder {
     width: 100%;
   }
 
-  section.about-w3l #controller-left img, section.about-w3l #controller-right img {
+  section.about-w3l #controller-left img,
+  section.about-w3l #controller-right img {
     width: 20px;
     height: 40px;
   }
@@ -2136,11 +2212,21 @@ input:-ms-input-placeholder {
     padding-bottom: 20px;
   }
 
-  section.service-w3l h3.text-center:before, section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:before, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:before, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:before,
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:before,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:after {
     width: 180px;
   }
 
-  .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1, .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 {
+  .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1,
+  .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 {
     width: 140px;
     line-height: 38px;
     font-size: 15px;
@@ -2150,7 +2236,8 @@ input:-ms-input-placeholder {
     height: 270px;
   }
 
-  section.about-w3l #controller-left, section.about-w3l #controller-right {
+  section.about-w3l #controller-left,
+  section.about-w3l #controller-right {
     top: 42%;
   }
 
@@ -2170,11 +2257,19 @@ input:-ms-input-placeholder {
     padding: 10px;
   }
 
-  section.service-w3l h3.text-center:before, section.portfolio-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:before, section.blog-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:before {
+  section.service-w3l h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:before,
+  section.blog-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:before {
     left: 17%;
   }
 
-  section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:after {
     right: 17%;
   }
 
@@ -2189,14 +2284,19 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .pogoSlider-slide-element h3 {
     font-size: 16px;
     line-height: 35px;
     padding: 0 20px 10px;
   }
 
-  section.about-w3l h2, section.service-w3l h3.text-center, section.portfolio-agileinfo h3.text-center, section.team-agileinfo h3.text-center, section.blog-w3layouts h3.text-center, section.contact-w3layouts h3.text-center {
+  section.about-w3l h2,
+  section.service-w3l h3.text-center,
+  section.portfolio-agileinfo h3.text-center,
+  section.team-agileinfo h3.text-center,
+  section.blog-w3layouts h3.text-center,
+  section.contact-w3layouts h3.text-center {
     font-size: 30px;
   }
 
@@ -2216,7 +2316,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .pogoSlider {
     height: 365px !important;
   }
@@ -2225,11 +2325,19 @@ input:-ms-input-placeholder {
     margin-top: 125px !important;
   }
 
-  section.service-w3l h3.text-center:before, section.portfolio-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:before, section.blog-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:before {
+  section.service-w3l h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:before,
+  section.blog-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:before {
     left: 13%;
   }
 
-  section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:after {
     right: 13%;
   }
 
@@ -2289,7 +2397,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
   section.banner-w3ls .logo-w3ls {
     left: 35px;
     top: 20px;
@@ -2300,7 +2408,16 @@ input:-ms-input-placeholder {
     top: 20px;
   }
 
-  section.service-w3l h3.text-center:before, section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:before, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:before, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:before,
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:before,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:after {
     width: 135px;
   }
 
@@ -2355,7 +2472,7 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:414px) {
+@media (max-width: 414px) {
   section.banner-w3ls .logo-w3ls a h1 {
     font-size: 20px;
   }
@@ -2391,11 +2508,24 @@ input:-ms-input-placeholder {
     line-height: 30px;
   }
 
-  section.service-w3l, section.portfolio-agileinfo, section.team-agileinfo, section.blog-w3layouts, section.contact-w3layouts {
+  section.service-w3l,
+  section.portfolio-agileinfo,
+  section.team-agileinfo,
+  section.blog-w3layouts,
+  section.contact-w3layouts {
     padding: 30px 0;
   }
 
-  section.service-w3l h3.text-center:before, section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:before, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:before, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:before,
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:before,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:after {
     width: 110px;
   }
 
@@ -2454,17 +2584,20 @@ input:-ms-input-placeholder {
     margin: 210px auto 0;
   }
 
-  section.blog-w3layouts .modal-header h4, section.banner-w3ls .modal-header h4 {
+  section.blog-w3layouts .modal-header h4,
+  section.banner-w3ls .modal-header h4 {
     font-size: 16px;
   }
 
-  section.banner-w3ls button.close, section.blog-w3layouts button.close {
+  section.banner-w3ls button.close,
+  section.blog-w3layouts button.close {
     font-size: 54px;
   }
 }
 
-@media (max-width:384px) {
-  .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1, .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 {
+@media (max-width: 384px) {
+  .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1,
+  .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 {
     width: 120px;
     line-height: 30px;
     font-size: 15px;
@@ -2501,8 +2634,17 @@ input:-ms-input-placeholder {
   }
 }
 
-@media (max-width:375px) {
-  section.service-w3l h3.text-center:before, section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:before, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:before, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:after {
+@media (max-width: 375px) {
+  section.service-w3l h3.text-center:before,
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:before,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:after {
     width: 100px;
   }
 }
@@ -2530,7 +2672,16 @@ input:-ms-input-placeholder {
     margin-top: 65px !important;
   }
 
-  section.service-w3l h3.text-center:before, section.service-w3l h3.text-center:after, section.portfolio-agileinfo h3.text-center:before, section.portfolio-agileinfo h3.text-center:after, section.team-agileinfo h3.text-center:before, section.team-agileinfo h3.text-center:after, section.blog-w3layouts h3.text-center:before, section.blog-w3layouts h3.text-center:after, section.contact-w3layouts h3.text-center:before, section.contact-w3layouts h3.text-center:after {
+  section.service-w3l h3.text-center:before,
+  section.service-w3l h3.text-center:after,
+  section.portfolio-agileinfo h3.text-center:before,
+  section.portfolio-agileinfo h3.text-center:after,
+  section.team-agileinfo h3.text-center:before,
+  section.team-agileinfo h3.text-center:after,
+  section.blog-w3layouts h3.text-center:before,
+  section.blog-w3layouts h3.text-center:after,
+  section.contact-w3layouts h3.text-center:before,
+  section.contact-w3layouts h3.text-center:after {
     width: 83px;
   }
 
@@ -2561,11 +2712,20 @@ input:-ms-input-placeholder {
     padding: 7px 17px;
   }
 
-  section.about-w3l h2, section.service-w3l h3.text-center, section.portfolio-agileinfo h3.text-center, section.team-agileinfo h3.text-center, section.blog-w3layouts h3.text-center, section.contact-w3layouts h3.text-center {
+  section.about-w3l h2,
+  section.service-w3l h3.text-center,
+  section.portfolio-agileinfo h3.text-center,
+  section.team-agileinfo h3.text-center,
+  section.blog-w3layouts h3.text-center,
+  section.contact-w3layouts h3.text-center {
     font-size: 25px;
   }
 
-  section.service-w3l span.fa.fa-star-o, section.portfolio-agileinfo span.fa.fa-star-o, section.team-agileinfo span.fa.fa-star-o, section.blog-w3layouts span.fa.fa-star-o, section.contact-w3layouts span.fa.fa-star-o {
+  section.service-w3l span.fa.fa-star-o,
+  section.portfolio-agileinfo span.fa.fa-star-o,
+  section.team-agileinfo span.fa.fa-star-o,
+  section.blog-w3layouts span.fa.fa-star-o,
+  section.contact-w3layouts span.fa.fa-star-o {
     margin-bottom: 15px;
   }
 
@@ -2589,11 +2749,14 @@ input:-ms-input-placeholder {
     padding-bottom: 7px;
   }
 
-  section.contact-w3layouts input#name, input#email {
+  section.contact-w3layouts input#name,
+  input#email {
     height: 40px;
   }
 
-  section.contact-w3layouts input#name, section.contact-w3layouts input#email, section.contact-w3layouts textarea#message {
+  section.contact-w3layouts input#name,
+  section.contact-w3layouts input#email,
+  section.contact-w3layouts textarea#message {
     font-size: 14px;
   }
 
@@ -2621,11 +2784,13 @@ input:-ms-input-placeholder {
     font-size: 13px;
   }
 
-  section.blog-w3layouts .modal-header h4, section.banner-w3ls .modal-header h4 {
+  section.blog-w3layouts .modal-header h4,
+  section.banner-w3ls .modal-header h4 {
     font-size: 14px;
   }
 
-  section.banner-w3ls button.close, section.blog-w3layouts button.close {
+  section.banner-w3ls button.close,
+  section.blog-w3layouts button.close {
     font-size: 50px;
     top: 0px;
     right: 10px;
@@ -2635,7 +2800,6 @@ input:-ms-input-placeholder {
     font-size: 13px;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Counts
@@ -2676,4 +2840,17 @@ input:-ms-input-placeholder {
   .counts {
     background-attachment: fixed;
   }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.5cm;
+  transform: translate(-50%, -50%);
 }
