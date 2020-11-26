@@ -20,7 +20,7 @@ body a {
 .img-responsive {
   display: block;
   margin-left: auto;
-  width: 65%;
+  width: 100%;
 }
 .video-responsive {
   align-items: center;
