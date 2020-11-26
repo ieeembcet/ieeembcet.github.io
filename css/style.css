@@ -18,6 +18,7 @@ body a {
   -ms-transition: 0.5s all;
 }
 .img-responsive {
+  align-items: center;
   display: block;
   margin-left: auto;
   width: 65%;
