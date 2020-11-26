@@ -23,6 +23,10 @@ body a {
   margin-right: auto;
   width: 65%;
 }
+.video-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 p {
   text-align: center;
