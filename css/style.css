@@ -23,6 +23,7 @@ body a {
   width: 65%;
 }
 .video-responsive {
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width:50%;
