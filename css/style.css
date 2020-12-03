@@ -19,7 +19,9 @@ body a {
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
-
+.carousel {
+  filter: blur(0.6px);
+}
 .img-responsive {
   align-items: center;
   display: block;
@@ -2670,6 +2672,14 @@ input:-ms-input-placeholder {
   position: absolute;
   top: 50%;
   left: 50%;
+  color: white;
+  font-size: 1.5cm;
+  transform: translate(-50%, -50%);
+}
+.left {
+  position: absolute;
+  top: 75%;
+  left: 20%;
   color: white;
   font-size: 1.5cm;
   transform: translate(-50%, -50%);
