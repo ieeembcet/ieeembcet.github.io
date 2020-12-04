@@ -2679,7 +2679,7 @@ input:-ms-input-placeholder {
 .left {
   position: absolute;
   top: 75%;
-  left: 35%;
+  left: 45%;
   color: white;
   font-size: 30px;
   transform: translate(-50%, -50%);
