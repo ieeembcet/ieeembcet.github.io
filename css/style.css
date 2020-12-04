@@ -2678,7 +2678,7 @@ input:-ms-input-placeholder {
 }
 .left {
   position: absolute;
-  top: 75%;
+  top: 60%;
   left: 45%;
   color: white;
   font-size: 30px;
